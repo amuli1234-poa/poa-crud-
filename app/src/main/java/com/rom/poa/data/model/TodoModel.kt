@@ -4,7 +4,7 @@ import kotlinx.serialization.Serializable
 
 @Serializable
 data class TodoModel(
-    val id:Int? =null,// will be used a a Primary key in supabase
+    val id:Int? =null,// will be used as Primary key in supabase
     val createdAt:Long? = null, // wil be automatically set to now() everytime we do a creation
     val title:String,
     val description:String,

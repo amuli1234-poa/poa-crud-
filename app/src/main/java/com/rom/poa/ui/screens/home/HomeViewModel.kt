@@ -1,4 +1,6 @@
 package com.rom.poa.ui.screens.home
 
-class HomeViewModel {
+import androidx.lifecycle.ViewModel
+
+class HomeViewModel : ViewModel() {
 }
